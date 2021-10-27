@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9C7D3D73271FDE0E003EB6F9 /* vcShowService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C7D3D72271FDE0E003EB6F9 /* vcShowService.swift */; };
 		9CB736E12717182B00B6546D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CB736E02717182B00B6546D /* AppDelegate.swift */; };
 		9CB736E32717182B00B6546D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CB736E22717182B00B6546D /* SceneDelegate.swift */; };
 		9CB736E52717182B00B6546D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CB736E42717182B00B6546D /* ViewController.swift */; };
@@ -15,6 +16,7 @@
 		9CB736ED2717182C00B6546D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9CB736EB2717182C00B6546D /* LaunchScreen.storyboard */; };
 		9CB736F82717182C00B6546D /* swift_ble_testTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CB736F72717182C00B6546D /* swift_ble_testTests.swift */; };
 		9CB737032717182C00B6546D /* swift_ble_testUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CB737022717182C00B6546D /* swift_ble_testUITests.swift */; };
+		9CB73717271739AC00B6546D /* MyTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CB73716271739AC00B6546D /* MyTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		9C7D3D72271FDE0E003EB6F9 /* vcShowService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = vcShowService.swift; sourceTree = "<group>"; };
 		9CB736DD2717182B00B6546D /* swift_ble_test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = swift_ble_test.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9CB736E02717182B00B6546D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9CB736E22717182B00B6546D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +52,7 @@
 		9CB736FE2717182C00B6546D /* swift_ble_testUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = swift_ble_testUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9CB737022717182C00B6546D /* swift_ble_testUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swift_ble_testUITests.swift; sourceTree = "<group>"; };
 		9CB737042717182C00B6546D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9CB73716271739AC00B6546D /* MyTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,10 +106,12 @@
 				9CB736E02717182B00B6546D /* AppDelegate.swift */,
 				9CB736E22717182B00B6546D /* SceneDelegate.swift */,
 				9CB736E42717182B00B6546D /* ViewController.swift */,
+				9C7D3D72271FDE0E003EB6F9 /* vcShowService.swift */,
 				9CB736E62717182B00B6546D /* Main.storyboard */,
 				9CB736E92717182C00B6546D /* Assets.xcassets */,
 				9CB736EB2717182C00B6546D /* LaunchScreen.storyboard */,
 				9CB736EE2717182C00B6546D /* Info.plist */,
+				9CB73716271739AC00B6546D /* MyTableViewCell.swift */,
 			);
 			path = swift_ble_test;
 			sourceTree = "<group>";
@@ -259,8 +265,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				9CB736E52717182B00B6546D /* ViewController.swift in Sources */,
+				9CB73717271739AC00B6546D /* MyTableViewCell.swift in Sources */,
 				9CB736E12717182B00B6546D /* AppDelegate.swift in Sources */,
 				9CB736E32717182B00B6546D /* SceneDelegate.swift in Sources */,
+				9C7D3D73271FDE0E003EB6F9 /* vcShowService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -439,6 +447,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = NYFZ693YYB;
 				INFOPLIST_FILE = swift_ble_test/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -458,6 +467,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = NYFZ693YYB;
 				INFOPLIST_FILE = swift_ble_test/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

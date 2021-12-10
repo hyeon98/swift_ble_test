@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		9C7D3D73271FDE0E003EB6F9 /* vcShowService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C7D3D72271FDE0E003EB6F9 /* vcShowService.swift */; };
+		9C87C1D12761BF64008A3C6E /* cellServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C87C1D02761BF64008A3C6E /* cellServices.swift */; };
 		9CB736E12717182B00B6546D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CB736E02717182B00B6546D /* AppDelegate.swift */; };
 		9CB736E32717182B00B6546D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CB736E22717182B00B6546D /* SceneDelegate.swift */; };
 		9CB736E52717182B00B6546D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CB736E42717182B00B6546D /* ViewController.swift */; };
@@ -38,6 +39,7 @@
 
 /* Begin PBXFileReference section */
 		9C7D3D72271FDE0E003EB6F9 /* vcShowService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = vcShowService.swift; sourceTree = "<group>"; };
+		9C87C1D02761BF64008A3C6E /* cellServices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cellServices.swift; sourceTree = "<group>"; };
 		9CB736DD2717182B00B6546D /* swift_ble_test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = swift_ble_test.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9CB736E02717182B00B6546D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9CB736E22717182B00B6546D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -112,6 +114,7 @@
 				9CB736EB2717182C00B6546D /* LaunchScreen.storyboard */,
 				9CB736EE2717182C00B6546D /* Info.plist */,
 				9CB73716271739AC00B6546D /* MyTableViewCell.swift */,
+				9C87C1D02761BF64008A3C6E /* cellServices.swift */,
 			);
 			path = swift_ble_test;
 			sourceTree = "<group>";
@@ -267,6 +270,7 @@
 				9CB736E52717182B00B6546D /* ViewController.swift in Sources */,
 				9CB73717271739AC00B6546D /* MyTableViewCell.swift in Sources */,
 				9CB736E12717182B00B6546D /* AppDelegate.swift in Sources */,
+				9C87C1D12761BF64008A3C6E /* cellServices.swift in Sources */,
 				9CB736E32717182B00B6546D /* SceneDelegate.swift in Sources */,
 				9C7D3D73271FDE0E003EB6F9 /* vcShowService.swift in Sources */,
 			);

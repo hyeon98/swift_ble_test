@@ -69,8 +69,11 @@ class ViewController: UIViewController, CBPeripheralDelegate {
             }
             else
             {
-                print("hyeon test2")
-                centralManager.scanForPeripherals(withServices: nil)
+                if(countScan == 10)
+                {
+                    print("hyeon test2")
+                    centralManager.scanForPeripherals(withServices: nil)
+                }
                 countScan -= 1
             }
         }
@@ -158,7 +161,8 @@ extension ViewController: CBCentralManagerDelegate {
         
         guard peripheral.name != nil else {return}
         
-        let tempSearchName = peripheral.name ?? "Null"
+//        let tempSearchName = peripheral.name ?? "Null"
+        let tempSearchName = (advertisementData[CBAdvertisementDataLocalNameKey] as? String ?? "nil")
         var tempStrDeviceRSSI = String(Int(truncating: RSSI))
         var tempIntDeviceRSSI = Int(truncating: RSSI)
         if tempIntDeviceRSSI == 127 {
